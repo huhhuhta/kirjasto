@@ -1,0 +1,98 @@
+[
+  {
+    "id": 4,
+    "title": "Blood Meridian",
+    "author": "Cormac McCarthy",
+    "year": 1985,
+    "genre": "Historiallinen",
+    "read": true
+  },
+  {
+    "id": 5,
+    "title": "A Game of Thrones",
+    "author": "George R. R. Martin",
+    "year": 1996,
+    "genre": "Fantasia",
+    "read": true
+  },
+  {
+    "id": 6,
+    "title": "A Clash of Kings",
+    "author": "George R. R. Martin",
+    "year": 1998,
+    "genre": "Fantasia",
+    "read": true
+  },
+  {
+    "id": 7,
+    "title": "A Storm of Swords",
+    "author": "George R. R. Martin",
+    "year": 2000,
+    "genre": "Fantasia",
+    "read": true
+  },
+  {
+    "id": 8,
+    "title": "A Feast for Crows",
+    "author": "George R. R. Martin",
+    "year": 2005,
+    "genre": "Fantasia",
+    "read": true
+  },
+  {
+    "id": 9,
+    "title": "A Dance with Dragons",
+    "author": "George R. R. Martin",
+    "year": 2011,
+    "genre": "Fantasia",
+    "read": true
+  },
+  {
+    "id": 10,
+    "title": "The Winds of Winter",
+    "author": "George R. R. Martin",
+    "year": null,
+    "genre": "Fantasia",
+    "read": false
+  },
+  {
+    "id": 11,
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "genre": "Muu",
+    "read": true
+  },
+  {
+    "id": 12,
+    "title": "Tuntematon Sotilas",
+    "author": "Väinö Linna",
+    "year": 1954,
+    "genre": "Historiallinen",
+    "read": true
+  },
+  {
+    "id": 13,
+    "title": "Jumalainen näytelmä",
+    "author": "Dante Alighieri",
+    "year": 1321,
+    "genre": "Muu",
+    "read": true
+  },
+  {
+    "id": 14,
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "year": 1605,
+    "genre": "Muu",
+    "read": true
+  },
+  {
+    "id": 15,
+    "title": "Ruhtinas",
+    "author": "Niccolò Machiavelli",
+    "year": 1513,
+    "genre": "Tietokirjallisuus",
+    "read": true
+  }
+]

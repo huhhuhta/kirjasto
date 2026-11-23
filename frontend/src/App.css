@@ -1,0 +1,94 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f1ea;
+  color: #2b2b2b;
+  margin: 0;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+h1 { color: #5a3e2b; }
+
+.book-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  align-items: end;
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.book-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.9rem;
+}
+
+.book-form label.checkbox {
+  flex-direction: row;
+  align-items: center;
+}
+
+input, select {
+  padding: 6px 8px;
+  border: 1px solid #c9c2b5;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  background: #5a3e2b;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover { background: #7a5740; }
+button.danger { background: #b33a3a; }
+button.danger:hover { background: #d04b4b; }
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.filter input { flex: 1 1 200px; }
+.filter input.year { flex: 0 1 110px; }
+
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.book-table th, .book-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.book-table th { background: #e8e0d0; }
+.book-table tr.read td { color: #888; }
+
+.error {
+  background: #f8d7da;
+  color: #842029;
+  padding: 10px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
